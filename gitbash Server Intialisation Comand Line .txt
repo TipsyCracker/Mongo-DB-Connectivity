@@ -1,0 +1,92 @@
+
+Sudhamh Undavalli@DESKTOP-UH06JB7 MINGW64 ~/Desktop
+$ mkdir App
+
+Sudhamh Undavalli@DESKTOP-UH06JB7 MINGW64 ~/Desktop
+$ cd App
+
+Sudhamh Undavalli@DESKTOP-UH06JB7 MINGW64 ~/Desktop/App
+$ touch app.html
+
+Sudhamh Undavalli@DESKTOP-UH06JB7 MINGW64 ~/Desktop/App
+$ touch server.js
+
+Sudhamh Undavalli@DESKTOP-UH06JB7 MINGW64 ~/Desktop/App
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (app)
+version: (1.0.0)
+description:
+entry point: (server.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\ratna\Desktop\App\package.json:
+
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+Sudhamh Undavalli@DESKTOP-UH06JB7 MINGW64 ~/Desktop/App
+$ npm i express
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN app@1.0.0 No description
+npm WARN app@1.0.0 No repository field.
+
++ express@4.17.1
+added 50 packages from 37 contributors and audited 50 packages in 5.034s
+found 0 vulnerabilities
+
+
+Sudhamh Undavalli@DESKTOP-UH06JB7 MINGW64 ~/Desktop/App
+$ npm i mongoose
+npm WARN app@1.0.0 No description
+npm WARN app@1.0.0 No repository field.
+
++ mongoose@6.0.8
+added 27 packages from 65 contributors and audited 77 packages in 18.098s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+Sudhamh Undavalli@DESKTOP-UH06JB7 MINGW64 ~/Desktop/App
+$ npm i body-parser
+npm WARN app@1.0.0 No description
+npm WARN app@1.0.0 No repository field.
+
++ body-parser@1.19.0
+updated 1 package and audited 78 packages in 2.119s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+DataBase-mongodb+srv://admin:123@cluster0.vqybw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
